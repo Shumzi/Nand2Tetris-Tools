@@ -1,0 +1,49 @@
+﻿<Window x:Class="JackWPF.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="JACK Paint" Height="643.75" Width="600" KeyDown="Window_KeyDown">
+    <Grid Background="Beige">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Name="penButton" Height="40" Width="70" FontSize="20" Click="penButton_Click">Pen</Button>
+            <Button Name="lineButton" Height="40" Width="70" FontSize="20" Grid.Column="1" Click="lineButton_Click">Line</Button>
+            <Button Name="squareButton" Height="40" Width="70" FontSize="15" Grid.Column="2" Click="squareButton_Click">Rectangle</Button>
+            <Button Name="circleButton" Height="40" Width="70" FontSize="20" Grid.Column="3" Click="circleButton_Click">Circle</Button>
+            <Grid Grid.Column="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <CheckBox FontSize="19" Name="isWhiteCheckBox" Checked="isWhiteCheckBox_Checked" Unchecked="isWhiteCheckBox_Unchecked" Grid.Row="0" >White? (E)</CheckBox>
+                <CheckBox FontSize="15" Name="isGrayCanvas" Checked="isGrayCanvas_Checked" Unchecked="isGrayCanvas_Unchecked" Grid.Row="1" VerticalAlignment="Center" >Gray Canvas?</CheckBox>
+                <Button Grid.Row="2" Name="clearScreenButton" Margin="10,5" Click="clearScreenButton_Click">Clear Screen</Button>
+            </Grid>
+        </Grid>
+        <Canvas x:Name="canv" ToolTip="tt one" Background="White" Grid.Row="1" Height="256" Width="512"  
+                MouseDown="canv_MouseDown" MouseMove="canv_MouseMove" MouseUp="canv_MouseUp" RenderOptions.EdgeMode="Aliased" ></Canvas>
+        <Button Grid.Row="2" Name="exportTextButton" Visibility="Hidden"/>
+        <TextBox Grid.Row="2" IsReadOnly="True" Name="debugTextBox" ScrollViewer.CanContentScroll="True"/>
+        
+        <Grid Grid.Row="3">
+            <Button Name="exportButton" FontSize="20" Height="40" Width="150" Click="exportButton_Click">Export to Jack!</Button>
+            <Label Height="28" Name="codeCopiedLabel" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Visibility="Hidden">(Code has been copied to Clipboard)</Label>
+        </Grid>
+        <Label Height="28" Margin="12,100.437,0,0" Name="label1" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.RowSpan="2" Width="219.2">U = Undo (remove last added element)</Label>
+        <Label Grid.Row="1" Height="28" Margin="254,1.25,116,0" Name="label2" VerticalAlignment="Top">WASD = Move last added element</Label>
+        <Label Height="27.5" Name="label3" Width="207.5" HorizontalAlignment="Left" Margin="15.5,0,0,98.75" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Bottom">Q = increase sqaure/circle size</Label>
+        <Label Height="27.5" Name="label4" Margin="247.5,0,122.5,98.75" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Bottom">Z = Decrease sqaure/circle size</Label>
+    </Grid>
+</Window>

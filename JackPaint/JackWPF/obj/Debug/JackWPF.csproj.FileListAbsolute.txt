@@ -1,0 +1,24 @@
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\bin\Debug\JackWPF.exe
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\bin\Debug\JackWPF.pdb
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\obj\Debug\Window1.baml
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\obj\Debug\Window1.g.cs
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\obj\Debug\App.g.cs
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\obj\Debug\JackWPF_MarkupCompile.cache
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\obj\Debug\JackWPF.g.resources
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\obj\Debug\JackWPF.Properties.Resources.resources
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\obj\Debug\JackWPF.csproj.GenerateResource.Cache
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\obj\Debug\JackWPF.exe
+C:\Users\Ariel\AppData\Local\Temporary Projects\JackWPF\obj\Debug\JackWPF.pdb
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\obj\Debug\JackWPF.exe
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\obj\Debug\JackWPF.pdb
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\bin\Debug\JackWPF.exe
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\bin\Debug\JackWPF.pdb
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\obj\Debug\Window1.baml
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\obj\Debug\Window1.g.cs
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\obj\Debug\App.g.cs
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\obj\Debug\JackWPF_MarkupCompile.cache
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\obj\Debug\JackWPF.g.resources
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\obj\Debug\JackWPF.Properties.Resources.resources
+C:\Users\Ariel\Documents\Visual Studio 2008\Projects\JackWPF\JackWPF\obj\Debug\JackWPF.csproj.GenerateResource.Cache

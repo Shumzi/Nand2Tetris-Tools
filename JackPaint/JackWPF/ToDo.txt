@@ -1,0 +1,2 @@
+﻿ToDo:
+- make individual wrappers so every create, destroy and jack print will be OCP. (en li caoch though, works & won't expand).
